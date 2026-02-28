@@ -51,13 +51,13 @@ html, body, [class*="css"], .stApp {
 }
 .grad { background: linear-gradient(135deg, #818cf8 0%, #ec4899 55%, #10b981 100%);
         -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-.hero-sub { font-size: 1.05rem; color: #5c5c7a; max-width: 480px; margin: 0 auto 2.2rem; line-height: 1.7; }
+.hero-sub { font-size: 1.1rem; color: #8585a8; max-width: 480px; margin: 0 auto 2.2rem; line-height: 1.7; }
 
 .pills { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-bottom: 2.5rem; }
 .pill {
     display: flex; align-items: center; gap: 8px;
-    background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);
-    color: #6b7280; font-size: 12px; font-weight: 500;
+    background: rgba(99,102,241,0.1); border: 1px solid rgba(99,102,241,0.25);
+    color: #a5b4fc; font-size: 12px; font-weight: 600;
     padding: 8px 18px; border-radius: 100px;
 }
 .pill-icon { font-size: 15px; }
@@ -77,16 +77,16 @@ html, body, [class*="css"], .stApp {
 
 /* TEXTAREA */
 .stTextArea > div > div > textarea {
-    background: rgba(255,255,255,0.035) !important; border: 1.5px solid rgba(99,102,241,0.25) !important;
-    border-radius: 18px !important; color: #e2e2ef !important;
-    font-size: 15px !important; font-family: 'Inter', sans-serif !important;
+    background: rgba(15,15,35,0.95) !important; border: 1.5px solid rgba(99,102,241,0.5) !important;
+    border-radius: 18px !important; color: #ffffff !important;
+    font-size: 16px !important; font-family: 'Inter', sans-serif !important;
     padding: 18px !important; line-height: 1.7 !important; transition: border-color 0.3s !important;
 }
 .stTextArea > div > div > textarea:focus {
     border-color: rgba(99,102,241,0.7) !important;
     box-shadow: 0 0 0 4px rgba(99,102,241,0.12) !important;
 }
-.stTextArea > div > div > textarea::placeholder { color: #363650 !important; }
+.stTextArea > div > div > textarea::placeholder { color: #4a4a6a !important; font-style: italic; }
 
 /* BUTTONS */
 .stButton > button {
@@ -123,7 +123,7 @@ html, body, [class*="css"], .stApp {
 .rc-neu { background: linear-gradient(145deg, #111118, #1c1c28, #252532); border: 1px solid rgba(148,163,184,0.2); box-shadow: 0 24px 60px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.05); }
 .rc-emoji { font-size: 80px; line-height: 1; display: block; margin-bottom: 14px; filter: drop-shadow(0 6px 12px rgba(0,0,0,0.4)); }
 .rc-label { font-family: 'Space Grotesk', sans-serif; font-size: 2.6rem; font-weight: 800; color: #fff; letter-spacing: -1px; }
-.rc-sub { font-size: 13px; color: rgba(255,255,255,0.45); margin-top: 8px; font-weight: 500; }
+.rc-sub { font-size: 13px; color: rgba(255,255,255,0.65); margin-top: 8px; font-weight: 500; }
 
 /* METRIC GLASS */
 .mg {
@@ -132,14 +132,14 @@ html, body, [class*="css"], .stApp {
     transition: all 0.3s ease; margin-top: 14px;
 }
 .mg:hover { background: rgba(99,102,241,0.07); border-color: rgba(99,102,241,0.25); transform: translateY(-3px); }
-.mg-label { font-size: 10px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: #3d3d5c; margin-bottom: 10px; }
+.mg-label { font-size: 11px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: #818cf8; margin-bottom: 10px; }
 .mg-val { font-family: 'Space Grotesk', sans-serif; font-size: 2.2rem; font-weight: 800; color: #818cf8; line-height: 1; margin-bottom: 6px; }
-.mg-desc { font-size: 11px; color: #2e2e48; font-weight: 500; }
+.mg-desc { font-size: 12px; color: #7c7c9a; font-weight: 500; }
 
 /* CONFIDENCE */
 .conf-wrap { background: rgba(255,255,255,0.025); border: 1px solid rgba(255,255,255,0.07); border-radius: 18px; padding: 22px; margin-top: 14px; }
 .conf-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
-.conf-title { font-size: 10px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: #3d3d5c; }
+.conf-title { font-size: 11px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: #818cf8; }
 .conf-num { font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; font-weight: 800; color: #e2e2ef; }
 .conf-track { background: rgba(255,255,255,0.05); border-radius: 100px; height: 10px; overflow: hidden; }
 .cf-p { background: linear-gradient(90deg, #047857, #10b981, #6ee7b7); height: 100%; border-radius: 100px; }
@@ -148,7 +148,7 @@ html, body, [class*="css"], .stApp {
 
 /* KEYWORDS */
 .kw-wrap { background: rgba(255,255,255,0.025); border: 1px solid rgba(255,255,255,0.07); border-radius: 18px; padding: 18px; margin-top: 14px; }
-.kw-title { font-size: 10px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: #3d3d5c; margin-bottom: 12px; }
+.kw-title { font-size: 11px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: #818cf8; margin-bottom: 12px; }
 .kw-tags { display: flex; flex-wrap: wrap; gap: 8px; }
 .kw-p { background: rgba(16,185,129,0.12); border: 1px solid rgba(16,185,129,0.28); color: #34d399; padding: 4px 14px; border-radius: 100px; font-size: 12px; font-weight: 600; }
 .kw-n { background: rgba(239,68,68,0.12); border: 1px solid rgba(239,68,68,0.28); color: #f87171; padding: 4px 14px; border-radius: 100px; font-size: 12px; font-weight: 600; }
@@ -156,12 +156,12 @@ html, body, [class*="css"], .stApp {
 /* EMPTY STATE */
 .empty-state { text-align: center; padding: 4rem 2rem; color: #2a2a40; }
 .empty-icon { font-size: 64px; filter: grayscale(1) opacity(0.2); margin-bottom: 16px; display: block; }
-.empty-text { font-size: 15px; font-weight: 600; color: #2a2a40; }
+.empty-text { font-size: 16px; font-weight: 600; color: #6b6b8a; }
 
 /* SECTION */
 .sec-title { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; font-weight: 700; color: #e2e2ef; margin-bottom: 6px; }
-.sec-sub { font-size: 13px; color: #3d3d5c; margin-bottom: 1.4rem; font-weight: 500; }
-.ex-label { font-size: 10px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: #3d3d5c; margin: 16px 0 10px; }
+.sec-sub { font-size: 14px; color: #7c7c9a; margin-bottom: 1.4rem; font-weight: 500; }
+.ex-label { font-size: 11px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: #6366f1; margin: 16px 0 10px; }
 
 /* METRICS */
 [data-testid="stMetric"] { background: rgba(255,255,255,0.03) !important; border: 1px solid rgba(255,255,255,0.07) !important; border-radius: 16px !important; padding: 18px !important; }
@@ -327,7 +327,7 @@ with tab1:
             st.markdown("""<div class="empty-state">
                 <span class="empty-icon">🧠</span>
                 <p class="empty-text">Your analysis will appear here</p>
-                <p style="font-size:13px;color:#222235;margin-top:6px">Enter text and click Analyze</p>
+                <p style="font-size:13px;color:#5a5a7a;margin-top:6px">Enter text and click Analyze</p>
             </div>""", unsafe_allow_html=True)
 
 # ════════════════════════════════════════
