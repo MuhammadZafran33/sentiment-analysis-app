@@ -191,3 +191,5 @@ This project is licensed under the MIT License.
   <strong>⭐ If you found this useful, please star the repo!</strong><br><br>
   Built with ❤️ using Python & Streamlit
 </div>
+---
+
