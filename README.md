@@ -185,6 +185,7 @@ Need a custom ML web app for your business?
 This project is licensed under the MIT License.
 
 ---
+---
 
 <div align="center">
   <strong>⭐ If you found this useful, please star the repo!</strong><br><br>
